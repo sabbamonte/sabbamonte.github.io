@@ -1,0 +1,58 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.row-header { 
+  padding-top: 50px;
+  margin: 0px auto;
+}
+
+.title {
+    font-size: 65px;
+}
+
+#main {
+    margin-left: 150px;
+    padding: 70px;
+}
+
+p {
+    color: grey;
+    font-size: 15px;
+}
+
+h6, h5 {
+    color: black;
+}
+
+.card-body, .accordion-item {
+    background-color: white;
+}
+
+#projects {
+    margin-left: -100px;
+    
+}
+
+.h-100 {
+    padding: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    #main {
+        margin-left:0px;
+    }
+
+    #projects {
+        margin-left:0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #main {
+        margin-left:50px;
+    }
+}
+
+
