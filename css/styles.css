@@ -374,4 +374,34 @@ h6, h5 {
     }
 }
 
+@media only screen and (min-width: 2000px) {
+  #main {
+      margin-left:500px;
+  }
+
+  #projects {
+      margin-right:150px;
+  }
+
+  .accordion {
+      margin-right: 200px;
+  }
+  
+}
+
+@media only screen and (min-width: 2100px) {
+  #main {
+      margin-left:900px;
+  }
+
+  #projects {
+      margin-right:150px;
+  }
+
+  .accordion {
+      margin-right: 200px;
+  }
+  
+}
+
 
