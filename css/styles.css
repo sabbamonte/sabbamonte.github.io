@@ -348,7 +348,6 @@ h6, h5 {
     transition: all 0.5s ease 0s;
 }
 
-
 @media only screen and (max-width: 900px) {
     #main {
         margin-left:0px;
@@ -366,7 +365,7 @@ h6, h5 {
 
 @media only screen and (max-width: 800px) {
     #main {
-        margin-left:50px;
+        margin-left:100px;
     }
 
     .accordion {
@@ -376,7 +375,7 @@ h6, h5 {
 
 @media only screen and (min-width: 2000px) {
   #main {
-      margin-left:500px;
+      margin-left:480px;
   }
 
   #projects {
@@ -391,7 +390,7 @@ h6, h5 {
 
 @media only screen and (min-width: 2100px) {
   #main {
-      margin-left:900px;
+      margin-left:620px;
   }
 
   #projects {
