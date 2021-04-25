@@ -280,6 +280,7 @@ h6, h5 {
 .h-100 {
     padding: 10px;
     transition: 0.30s;
+    width: 350px;
 }
 
 .h-100:hover {
