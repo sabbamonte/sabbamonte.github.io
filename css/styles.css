@@ -1,5 +1,4 @@
 html, body {
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -24,6 +23,37 @@ html, body {
       0 -0.5rem 2rem blue, 0 0.5rem 3rem blue;
     animation: shine 2s forwards, flicker 3s infinite;
   }
+
+.row-header { 
+  padding-top: 50px;
+  margin: 0px auto;
+}
+
+.title {
+    font-size: 65px;
+}
+
+p {
+    color: grey;
+    font-size: 15px;
+}
+
+h6, h5 {
+    color: black;
+}
+
+.card-body, .accordion-item {
+    background-color: white;
+}
+
+.h-100 {
+    padding: 10px;
+    transition: 0.30s;
+}
+
+.h-100:hover {
+    transform: scale(1.1);
+}
   
   @keyframes blink {
     0%,
@@ -244,53 +274,6 @@ h7 {
         color: white;
     }
 }
-  
-.row-header { 
-  padding-top: 50px;
-  margin: 0px auto;
-}
-
-.title {
-    font-size: 65px;
-}
-
-#main {
-    margin-left: 150px;
-    padding: 70px;
-}
-
-p {
-    color: grey;
-    font-size: 15px;
-}
-
-h6, h5 {
-    color: black;
-}
-
-.card-body, .accordion-item {
-    background-color: white;
-}
-
-#projects {
-    margin-left: -100px;
-    
-}
-
-.h-100 {
-    padding: 10px;
-    transition: 0.30s;
-    width: 350px;
-}
-
-.h-100:hover {
-    transform: scale(1.1);
-}
-
-.accordion {
-    margin-right: 200px;
-    
-}
 
 .fade-in {
     animation: fadeIn ease 2s;
@@ -347,61 +330,6 @@ h6, h5 {
     letter-spacing: 5px;
     background: none;
     transition: all 0.5s ease 0s;
-}
-
-@media only screen and (max-width: 900px) {
-    #main {
-        margin-left:0px;
-    }
-
-    #projects {
-        margin-left:0px;
-    }
-
-    .accordion {
-        margin-right: 0px;
-    }
-    
-}
-
-@media only screen and (max-width: 800px) {
-    #main {
-        margin-left:100px;
-    }
-
-    .accordion {
-        margin-right: 0px;
-    }
-}
-
-@media only screen and (min-width: 2000px) {
-  #main {
-      margin-left:480px;
-  }
-
-  #projects {
-      margin-right:150px;
-  }
-
-  .accordion {
-      margin-right: 200px;
-  }
-  
-}
-
-@media only screen and (min-width: 2100px) {
-  #main {
-      margin-left:620px;
-  }
-
-  #projects {
-      margin-right:150px;
-  }
-
-  .accordion {
-      margin-right: 200px;
-  }
-  
 }
 
 
